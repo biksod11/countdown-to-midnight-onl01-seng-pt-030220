@@ -12,6 +12,6 @@ def countdown(digits,should_sleep = false)
 end
 
 
-def countdown_with_sleep(digitas)
+def countdown_with_sleep(digits)
   return countdown(digits, true)
 end
