@@ -11,5 +11,5 @@ def countdown(digits,should_sleep = false)
 end
 
 def countdown_with_sleep(digitas)
-  countdown(digits, true)
+  return countdown(digits, true)
 end
