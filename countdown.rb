@@ -9,8 +9,8 @@ def countdown(digits,should_sleep = false)
     digits -= 1
   end
   return "HAPPY NEW YEAR!"
-  end
-  
+end
+
 
 def countdown_with_sleep(digitas)
   return countdown(digits, true)
