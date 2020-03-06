@@ -5,10 +5,12 @@ def countdown(digits,should_sleep = false)
     puts "#{digits} SECOND(S)!"
     if should_sleep
       sleep(1)
+    end
     digits -= 1
   end
   return "HAPPY NEW YEAR!"
-end
+  end
+  
 
 def countdown_with_sleep(digitas)
   return countdown(digits, true)
